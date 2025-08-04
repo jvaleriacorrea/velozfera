@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Monserrat', sans-serif;
+    overflow-x: hidden;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    background-color: blanchedalmond;
+}
+.menu ul li {
+  margin-left: 100px;
+  
+
+}
+.menu ul li a {
+  text-decoration: none;
+  color: rgb(34, 30, 30); /* opcional para que se vea mejor sobre fondo oscuro */
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+}
+
+.menu ul li a:hover {
+  color: #5f5947; /* Cambia el color al pasar el mouse */
+}
+.header{
+    background-image: url("img.uno_png.jpg");
+    padding: 20px;
+    background-size: cover;   
+    text-align: center;
+    display : flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+   
+    height: 100vh;
+}
+.header h1 {
+    font-size: 3rem;
+    
+    font-family: 'Oswald', sans-serif;
+}
+.header span{
+    display: block;
+    font-size: 1.5rem;color: aliceblue;
+    
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
+.header p{
+    display: block;
+    font-size: 1.2rem;color: lightcyan;
+ 
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+}
+.header-text  button{
+    background-color: #d1c290;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
